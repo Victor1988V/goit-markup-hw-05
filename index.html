@@ -31,7 +31,57 @@
     <section class="section first-sections">
             <div class="poster__first__section">
                  <h1 class="first-title">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="button">Замовити послугу</button>
+                <button type="button" class="button" data-modal-open>Замовити послугу</button>
+                  
+                    <div class="backdrop is-hidden" data-modal>
+
+                        <div class="modal">                            
+                            <button class="modal__btn" data-modal-close>
+                                <svg class="icon__close" width="18" height="18">
+                                    <use href="./images/sprite.svg#icon-close"></use>
+                                </svg>
+                            </button>         
+                            <!-- <p class="form__text">Залиште свої дані, ми вам передзвонимо</p>  
+                             <form class="form">
+
+                                <div class="form__filed">
+                                    <label for="name">Ім'я</label>                                    
+                                    <input class="form__input" type="text" name="name" id="name">
+                                    <svg class="icon__person icon__form" widht="18" height="18">
+                                        <use href="./images/sprite.svg#icon-person"></use>
+                                    </svg>                                    
+                                </div>
+
+                                <div class="form__filed">
+                                    <label for="tel">Телефон</label>
+                                    <input type="tel" name="tel" id="tel">
+                                    <svg class="icon__tel icon__form" widht="18" height="18">
+                                        <use href="./images/sprite.svg#icon-phone"></use>
+                                    </svg>
+                                </div>
+                                
+                                <div class="form__filed">
+                                    <label for="mail">Пошта</label>
+                                    <input type="email" name="mail" id="mail">
+                                    <svg class="icon__mail icon__form" widht="18" height="18">
+                                        <use href="./images/sprite.svg#icon-email"></use>
+                                    </svg>
+                                </div>
+                                
+                                <div class="form__filed">
+                                    <label for="comment">Коментар</label>
+                                    <textarea name="comment" id="comment" placeholder="Введіть текст"></textarea>   
+                                </div>
+
+                                <input type="checkbox" name="topic" id="Treaty">
+                                <label class="comment__form" for="">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label>
+
+                                <button type="submit">Відправити</button> -->
+                             </form>                
+                        </div>         
+
+                    </div>
+
             </div>
     </section>
     <section class="section">
@@ -61,9 +111,10 @@
         <div class="container">
             
         <ul class="work-list">
-            <li class="item"><img src="./images/imgone.jpg" alt="works at a computer" width="370"></li>
-            <li class="item"><img src="./images/imgtwo.jpg" alt="works at a computer" width="370"></li>
-            <li class="item"><img src="./images/imgthree.jpg" alt="works at a computer" width="370"></li>            
+            <li class="item"><img src="./images/imgone.jpg" alt="works at a computer" width="370">
+            <div class="work__image"><p class="three-title work__text">Десктопні додатки</p></div></li>
+            <li class="item"><img src="./images/imgtwo.jpg" alt="works at a computer" width="370"><div class="work__image"><p class="three-title work__text">Мобільні додатки</p></div></li>
+            <li class="item"><img src="./images/imgthree.jpg" alt="works at a computer" width="370"><div class="work__image"><p class="three-title work__text">Дизайнерські рішення</p></div></li>            
         </ul>
         </div>        
     </section>
@@ -79,28 +130,28 @@
                     <p class="job-title">Product Designer</p>
                     <ul class="social__list">
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="instagram">
                                 <svg class="icon__social" width="20" height="20">
                                     <use class="test" href="./images/sprite.svg#icon-instagram-2"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="twitter">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-twitter-1""></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="facebook">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-facebook-1"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="linkedin">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-linkedin-1"></use>
                                 </svg>
@@ -115,28 +166,28 @@
                     <p class="job-title">Frontend Developer</p>   
                     <ul class="social__list">
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="instagram">
                                 <svg class="icon__social" width="20" height="20">
                                     <use class="test" href="./images/sprite.svg#icon-instagram-2"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="twitter">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-twitter-1""></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="facebook">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-facebook-1"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="linkedin">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-linkedin-1"></use>
                                 </svg>
@@ -151,28 +202,28 @@
                     <p class="job-title">Marketing</p> 
                     <ul class="social__list">
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="instagram">
                                 <svg class="icon__social" width="20" height="20">
                                     <use class="test" href="./images/sprite.svg#icon-instagram-2"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="twitter">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-twitter-1""></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="facebook">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-facebook-1"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="linkedin">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-linkedin-1"></use>
                                 </svg>
@@ -187,28 +238,28 @@
                     <p class="job-title">UI Designer</p> 
                     <ul class="social__list">
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="instagram">
                                 <svg class="icon__social" width="20" height="20">
                                     <use class="test" href="./images/sprite.svg#icon-instagram-2"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="twitter">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-twitter-1""></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="facebook">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-facebook-1"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
+                            <a href="#" class="social__link" target="_blank" aria-label="linkedin">
                                 <svg class="icon__social" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-linkedin-1"></use>
                                 </svg>
@@ -222,42 +273,42 @@
         <h2 class="second-title">Постійні клієнти</h2>
         <ul class="client">
             <li class="client__item">
-                <a href="" class="client__link">
+                <a href="" class="client__link" target="_blank">
                     <svg class="icon"" width="106" height="60">
                         <use href="./images/sprite.svg#icon-Union"></use>
                     </svg>
                 </a>
             </li>
             <li class="client__item">
-                <a href="" class="client__link">
+                <a href="" class="client__link" target="_blank">
                     <svg class="icon" width="106" height="60">
                         <use href="./images/sprite.svg#icon-group"></use>
                     </svg>
                 </a>
             </li>
             <li class="client__item">
-                <a href="" class="client__link">
+                <a href="" class="client__link" target="_blank">
                     <svg class="icon" width="106" height="60">
                         <use href="./images/sprite.svg#icon-group-1"></use>
                     </svg>
                 </a>
             </li>
             <li class="client__item">
-                <a href="" class="client__link">
+                <a href="" class="client__link" target="_blank">
                     <svg class="icon" width="106" height="60">
                         <use href="./images/sprite.svg#icon-group-2"></use>
                     </svg>
                 </a>
             </li>
             <li class="client__item">
-                <a href="" class="client__link">
+                <a href="" class="client__link" target="_blank">
                     <svg class="icon" width="106" height="60">
                         <use href="./images/sprite.svg#icon-group-3"></use>
                     </svg>
                 </a>
             </li>
             <li class="client__item">
-                <a href="" class="client__link">
+                <a href="" class="client__link" target="_blank">
                     <svg class="icon" width="106" height="60">
                         <use href="./images/sprite.svg#icon-Object"></use>
                     </svg>
@@ -288,28 +339,28 @@
                                 
                 <ul class="social__list__footer">
                 <li class="social__footer__item">
-                    <a href="" target="_blank" class="social__footer">
+                    <a href="" target="_blank" class="social__footer" aria-label="instagram">
                         <svg class="icon__footer" width="20" height="20">
                             <use href="./images/sprite.svg#icon-instagram-2"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="social__footer__item">
-                    <a href="" target="_blank" class="social__footer">
+                    <a href="" target="_blank" class="social__footer" aria-label="twitter">
                         <svg class="icon__footer" width="20" height="20">
                             <use href="./images/sprite.svg#icon-twitter-1"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="social__footer__item">
-                    <a href="" target="_blank" class="social__footer">
+                    <a href="" target="_blank" class="social__footer" aria-label="facebook">
                         <svg class="icon__footer" width="20" height="20">
                             <use href="./images/sprite.svg#icon-facebook-1"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="social__footer__item">
-                    <a href="" target="_blank" class="social__footer">
+                    <a href="" target="_blank" class="social__footer" aria-label="linkedin">
                         <svg class="icon__footer" width="20" height="20">
                             <use href="./images/sprite.svg#icon-linkedin-1"></use>
                         </svg>
@@ -322,5 +373,6 @@
             
         
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
